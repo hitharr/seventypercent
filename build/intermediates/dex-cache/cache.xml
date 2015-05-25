@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/phrocks254/AndroidStudioProjects/seventypercent/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/phrocks254/AndroidStudioProjects/seventypercent/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-430380fa8dce4a9d1aec3024bafee32802e2e8f5.jar" />
+    </item>
+    <item
+        jar="/Users/phrocks254/AndroidStudioProjects/seventypercent/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/phrocks254/AndroidStudioProjects/seventypercent/app/build/intermediates/pre-dexed/debug/classes-9d38c5848e48ae8f0fb9a4e7f1caf5909f686118.jar" />
+    </item>
+    <item
+        jar="/Users/phrocks254/AndroidStudioProjects/seventypercent/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/phrocks254/AndroidStudioProjects/seventypercent/app/build/intermediates/pre-dexed/debug/classes-fffc575aaecc861a1a6926cc7a5403c212c79c0c.jar" />
+    </item>
+    <item
+        jar="/Users/phrocks254/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/phrocks254/AndroidStudioProjects/seventypercent/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-f2142968053184cd70559a563b06603fef23921e.jar" />
+    </item>
+
+</items>
