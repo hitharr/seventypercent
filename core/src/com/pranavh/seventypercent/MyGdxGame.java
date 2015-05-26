@@ -6,6 +6,7 @@
  */
 package com.pranavh.seventypercent;
 
+//import statements
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.InputAdapter;
@@ -88,11 +89,11 @@ public class MyGdxGame extends ApplicationAdapter implements InputProcessor {
 	}
 
     /**
+     * Handles touch down event
      * @param x x coordinate
      * @param y y coordinate
      * @param pointer int to describe pointer
      * @param button button pressed (if pressed)
-     * Handles touch down event
      */
     @Override
     public boolean touchDown(int x, int y, int pointer, int button) {
@@ -102,10 +103,10 @@ public class MyGdxGame extends ApplicationAdapter implements InputProcessor {
     }
 
     /**
+     * Handles touch dragged event
      * @param x x coordinate
      * @param y y coordinate
      * @param pointer int to describe pointer
-     * Handles touch dragged event
      */
     @Override
     public boolean touchDragged(int x, int y, int pointer) {
@@ -114,29 +115,59 @@ public class MyGdxGame extends ApplicationAdapter implements InputProcessor {
         return true;
     }
 
+   /**
+     * Handles touch up event
+     * @param x x coordinate
+     * @param y y coordinate
+     * @param pointer int to describe pointer
+     * @param button button pressed (if pressed)
+     */
     @Override
     public boolean touchUp(int x, int y, int pointer, int button) {
         return false;
     }
+    
+     /**
+     * Handles key down event
+     * @param keycode key pressed
+     */
     @Override
     public boolean keyDown (int keycode) {
         return false;
     }
 
+   /**
+     * Handles key up event
+     * @param keycode key pressed
+     */
     @Override
     public boolean keyUp (int keycode) {
         return false;
     }
 
+   /**
+     * Handles key typed event
+     * @param characters character typed by user
+     */
     @Override
     public boolean keyTyped (char character) {
         return false;
     }
+    
+    /**
+     * Handles mouse moved event
+     * @param x x coordinate of mouse
+     * @parm y y coordinate of mouse
+     */
     @Override
     public boolean mouseMoved (int x, int y) {
         return false;
     }
-
+    
+   /**
+     * Handles scroll event
+     * @param amount amount scrolled by
+     */
     @Override
     public boolean scrolled (int amount) {
         return false;
