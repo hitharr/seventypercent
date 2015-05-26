@@ -1,12 +1,16 @@
 package com.pranavh.seventypercent.android;
 
+//import statements
 import android.os.Bundle;
-
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
 import com.pranavh.seventypercent.MyGdxGame;
 
 public class AndroidLauncher extends AndroidApplication {
+	
+	/* Method called to activiate MyGdxGame
+	*/
+
 	@Override
 	protected void onCreate (Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
