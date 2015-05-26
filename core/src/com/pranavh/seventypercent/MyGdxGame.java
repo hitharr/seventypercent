@@ -1,3 +1,9 @@
+/**
+ * MyGdxGame uses a create() and render() game loop to run a simple android game.
+ * @author: Pranav Harathi, Ashley Handoko, Brandon Perry
+ * Date: 05-26-15
+ * Period: 3
+ */
 package com.pranavh.seventypercent;
 
 import com.badlogic.gdx.ApplicationAdapter;
@@ -27,23 +33,29 @@ public class MyGdxGame extends ApplicationAdapter implements InputProcessor {
     private int rectTRX = 0;
     private int rectTRY = 0;
     private ShapeRenderer shapeRenderer;
-
-	@Override
-	public void create () {
+  
+    /**
+     * Method called before game loop to set up input, render shapes, and set up animation
+     */
+    @Override
+    public void create () {
         batch = new SpriteBatch();
 
         flyAtlas = new TextureAtlas(Gdx.files.internal("flu.atlas"));
         // fraction is length of one frame in seconds
         animation = new Animation(1/30f, flyAtlas.getRegions());
-        /* font.scale()?? */
+        // font.scale()??
 
 
         // User input
         Gdx.input.setInputProcessor(this);
         shapeRenderer = new ShapeRenderer();
 
-	}
+    }
 
+    /**
+     * Disposes resources
+     */ 
     @Override
     public void dispose() {
         batch.dispose();
@@ -51,6 +63,9 @@ public class MyGdxGame extends ApplicationAdapter implements InputProcessor {
         shapeRenderer.dispose();
     }
 
+    /**
+     * Uses a spritebatch to render graphics and renders boxes if they are smaller than 0 x 0
+     */
     @Override
 	public void render () {
         // Clears screen with white color
@@ -72,6 +87,13 @@ public class MyGdxGame extends ApplicationAdapter implements InputProcessor {
         batch.end();
 	}
 
+    /**
+     * @param x x coordinate
+     * @param y y coordinate
+     * @param pointer int to describe pointer
+     * @param button button pressed (if pressed)
+     * Handles touch down event
+     */
     @Override
     public boolean touchDown(int x, int y, int pointer, int button) {
         rectBLX = x;
@@ -79,6 +101,12 @@ public class MyGdxGame extends ApplicationAdapter implements InputProcessor {
         return true;
     }
 
+    /**
+     * @param x x coordinate
+     * @param y y coordinate
+     * @param pointer int to describe pointer
+     * Handles touch dragged event
+     */
     @Override
     public boolean touchDragged(int x, int y, int pointer) {
         rectTRX = x;
