@@ -1,3 +1,11 @@
+/**
+ * The AndroidLauncher class launches the game
+ * @author Ashley Handoko, Pranav Harathi, Brandon Perry
+ * Period: 3
+ * Date: 5-26-15
+ */
+
+
 package com.pranavh.seventypercent.android;
 
 //import statements
