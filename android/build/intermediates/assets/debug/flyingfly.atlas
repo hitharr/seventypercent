@@ -1,0 +1,24 @@
+
+flyingfly.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+flappy
+  rotate: false
+  xy: 1, 1
+  size: 545, 559
+  orig: 545, 559
+  offset: 0, 0
+  index: -1
+
+flyingfly2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+ziXo5A5kT
+  rotate: false
+  xy: 1, 1
+  size: 495, 512
+  orig: 495, 512
+  offset: 0, 0
+  index: -1

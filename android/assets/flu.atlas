@@ -1,0 +1,19 @@
+
+flu.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+small1
+  rotate: false
+  xy: 1, 1
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+small2
+  rotate: false
+  xy: 136, 1
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
